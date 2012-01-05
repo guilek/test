@@ -13,6 +13,10 @@ def factorial(n):
     If the result is small enough to fit in an int, return an int.
     Else return a long.
 
+	La convention veut que factoriel 0 vaut 1
+	>>> factorial(0)
+	1
+
     >>> [factorial(n) for n in range(6)]
     [1, 1, 2, 6, 24, 120]
     >>> [factorial(long(n)) for n in range(6)]
