@@ -193,6 +193,7 @@ def copy_files():
 
 	print u"Total files copied : %s (%s originals files)" % (file_copied, len(files))
 
+# Appel de fonction
 copy_files()
 
 if __name__ == "__main__":
