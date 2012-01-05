@@ -193,6 +193,8 @@ def copy_files():
 
 	print u"Total files copied : %s (%s originals files)" % (file_copied, len(files))
 
+copy_files()
+
 if __name__ == "__main__":
     import doctest
     doctest.testmod()
